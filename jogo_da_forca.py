@@ -1,10 +1,10 @@
 palavra_secreta = ["M","A","C","E","I","O"]
-letras_descobertas = []
+letras_descobertas = [] # Espaço para receber as tentativas de letras
 
 print("\n*** Jogo da Forca ***\n")
 
 for i in range(0, len(palavra_secreta)) :
-	letras_descobertas.append("-")
+	letras_descobertas.append("-") # Vai usar o '-' para substituir as letras
 
 acertou = False
 
